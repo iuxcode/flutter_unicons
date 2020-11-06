@@ -1,17 +1,14 @@
 name: flutter_unicons
-description: A new Flutter package project.
+description: 1000+ Pixel-perfect svg unicons for your next flutter project.
 version: 0.0.1
-author:
-homepage:
-
+author: charlot tabade<charlottabade@gmail.com>
+homepage: https://github.com/charles9904/flutter_unicons.git
 environment:
   sdk: ">=2.7.0 <3.0.0"
   flutter: ">=1.17.0"
-
 dependencies:
   flutter:
     sdk: flutter
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
