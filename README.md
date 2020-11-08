@@ -2,7 +2,7 @@
 
 <img src="./assets/images/hero.png" alt="logo of flutter_unicons repository"></br>
 
-1000+ Pixel-perfect svg unicons for your next flutter project
+1000+ Pixel-perfect svg unicons for your next flutter project ispired by [Unicons](https://github.com/iconscout/unicons) and [vue-unicons](https://github.com/antonreshetov/vue-unicons/blob/master/README.md)
 
 ## Demo
 
@@ -36,3 +36,9 @@ class Demo extends StatelessWidget{
   }
 }
 ```
+
+## Licence
+
+Vue Unicons licensed under MIT.
+
+[Unicons](https://github.com/iconscout/unicons) licensed under Apache 2.0
