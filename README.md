@@ -1,6 +1,6 @@
 # flutter_unicons
 
-<img src="./assets/hero.png" alt="logo of flutter_unicons repository"></br>
+<img src="./assets/images/hero.png" alt="logo of flutter_unicons repository"></br>
 
 1000+ Pixel-perfect svg unicons for your next flutter project
 
