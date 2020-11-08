@@ -1,12 +1,18 @@
 # flutter_unicons
 
+<img src="./assets/hero.png" alt="logo of flutter_unicons repository"></br>
+
 1000+ Pixel-perfect svg unicons for your next flutter project
+
+## Demo
+
+Download the gallery app [here](https://github.com/charles9904/flutter_unicons_gallery/releases/tag/Flutter_unicons) .
 
 ## Installation
 
 Add dependency to your **pubspec.yaml**
 
-```dart
+```yaml
 dependencies:
   flutter_unicons: #version
 ```
