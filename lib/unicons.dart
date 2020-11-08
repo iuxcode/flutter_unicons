@@ -9,12 +9,14 @@ class Unicon extends StatefulWidget {
   final double size;
   final Color color;
   final BoxFit fit;
+  final bool allowDrawingOutsideViewBox;
   final UniconDataModel icon;
   Unicon(
     this.icon,
     {
       this.size = 24,
       this.fit = BoxFit.contain,
+      this.allowDrawingOutsideViewBox = false,
       this.color = Colors.black45
     }
   );
@@ -29,14 +31,21 @@ class _UniconState extends State<Unicon> {
   }
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
-      height: widget.size,
-      width: widget.size,
-      child: SvgPicture.string(
-        '''<svg width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g>'''+widget.icon.path+'''</g></svg>''',
-        color: widget.color,
-        fit: widget.fit
-      )
+    return Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children:[
+        SizedBox(
+          height: widget.size,
+          width: widget.size,
+          child: SvgPicture.string(
+            '''<!DOCTYPE svg><svg width="100%" height="100%" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g>'''+widget.icon.path+'''</g></svg>''',
+            color: widget.color,
+            width: widget.size,
+            fit: widget.fit,
+            allowDrawingOutsideViewBox: widget.allowDrawingOutsideViewBox,
+          )
+        )
+      ]
     );
   }
 }
