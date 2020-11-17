@@ -1,3 +1,3 @@
-## [0.0.1] - TODO: Add release date.
+## [0.0.1] - init
 
-* TODO: Describe initial release.
+## [0.0.2] - you can now align icons in their parent widgets
