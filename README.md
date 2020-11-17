@@ -39,6 +39,6 @@ class Demo extends StatelessWidget{
 
 ## Licence
 
-Vue Unicons licensed under MIT.
+flutter_unicons licensed under MIT.
 
 [Unicons](https://github.com/iconscout/unicons) licensed under Apache 2.0
