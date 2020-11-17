@@ -10,6 +10,7 @@ class Unicon extends StatefulWidget {
   final Color color;
   final BoxFit fit;
   final bool allowDrawingOutsideViewBox;
+  final MainAxisAlignment mainAxisAlignment;
   final UniconDataModel icon;
   Unicon(
     this.icon,
@@ -17,7 +18,8 @@ class Unicon extends StatefulWidget {
       this.size = 24,
       this.fit = BoxFit.contain,
       this.allowDrawingOutsideViewBox = false,
-      this.color = Colors.black45
+      this.color = Colors.black45,
+      this.mainAxisAlignment = const MainAxisAlignment.center
     }
   );
   @override
@@ -32,7 +34,7 @@ class _UniconState extends State<Unicon> {
   @override
   Widget build(BuildContext context) {
     return Row(
-      mainAxisAlignment: MainAxisAlignment.center,
+      mainAxisAlignment: widget.mainAxisAlignment,
       children:[
         SizedBox(
           height: widget.size,
