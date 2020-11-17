@@ -19,7 +19,7 @@ class Unicon extends StatefulWidget {
       this.fit = BoxFit.contain,
       this.allowDrawingOutsideViewBox = false,
       this.color = Colors.black45,
-      this.mainAxisAlignment = const MainAxisAlignment.center
+      this.mainAxisAlignment = MainAxisAlignment.center
     }
   );
   @override
