@@ -17,8 +17,6 @@ dependencies:
   flutter_unicons: #version
 ```
 
-**Do not use the version 0.0.2**
-
 ## Usage
 
 ```dart
