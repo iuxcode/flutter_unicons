@@ -1,6 +1,7 @@
-import 'package:flutter/material.dart';
+part of 'package:flutter_unicons/flutter_unicons.dart';
 
-class UniconDataModel{
+class UniconData{
   final String name,style,path;
-  UniconDataModel({@required this.name,@required this.style,@required this.path}): assert(name != null), assert(style != null), assert(path != null);
+
+  UniconData({ required this.name, required this.style, required this.path });
 }
