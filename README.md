@@ -1,17 +1,3 @@
-<style>
-  table{
-    border-collapse: collapse;
-    border-spacing: 0;
-  }
-  th, td{
-    border:1px solid #dfe2e5;
-    padding: 10px 8px;
-  }
-  img {
-    width: 100%
-  }
-</style>
-
 # flutter_unicons
 
 ![flutter_unicons](https://github.com/charles9904/flutter_unicons/blob/main/assets/images/hero.png?raw=true)</br>
