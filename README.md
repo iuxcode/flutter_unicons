@@ -14,7 +14,7 @@ Add dependency to your **pubspec.yaml**
 
 ```yaml
 dependencies:
-  flutter_unicons: #version (current is 0.0.5)
+  flutter_unicons: #version (current is 0.0.6)
 ```
 If your project does not use null safety, you should use the following version: 0.0.4
 
